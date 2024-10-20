@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gcp-storage-testcontainers"
+version = "0.1.0"
+description = ""
+authors = ["agonzalezl <angel.gonzalez.lpz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ruff = "^0.7.0"
+testcontainers = "^4.8.2"
+google-cloud-storage = "^2.18.2"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
